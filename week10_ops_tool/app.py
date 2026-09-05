@@ -2,7 +2,7 @@
 Equipment Failure Risk Dashboard
 Week 10 - Vibe Coded with Claude (Anthropic)
 
-IMPORTANT: Run save_model.py from your Week 9 folder first to generate:
+IMPORTANT: Run save_model.py first to generate:
   - xgb_model.joblib      (trained model)
   - feature_cols.joblib   (exact column order used during training)
 Place both files in the same folder as this app.py before launching.
