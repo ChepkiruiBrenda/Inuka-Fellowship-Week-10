@@ -1,0 +1,17 @@
+🚀 I just shipped something I'm genuinely proud of.
+
+Over the past two weeks I built an Equipment Failure Risk Monitor — a live ML dashboard that predicts which industrial assets are about to fail, and explains exactly why, using SHAP values.
+
+The problem it solves: maintenance teams spend hours deciding which machines to inspect. Most decisions are based on gut feel or fixed schedules — which means real failures get missed.
+
+What the tool does: ✅ Takes 8 live sensor readings as input ✅ Runs an XGBoost model trained on 6,000 asset cycles ✅ Returns a failure probability score in under a second ✅ Shows a SHAP chart explaining which sensor drove the alert — no black box ✅ Catches 95.8% of real failures (23 out of 24 on the test set)
+
+The result: a decision that used to take 2 hours of manual data review now takes 10 seconds.
+
+Built using Vibe Coding — Claude (Anthropic) generated the core architecture from precise prompts while I focused on the operational logic, risk thresholds, and UX.
+
+The full tool is on my GitHub: https://github.com/ChepkiruiBrenda/Inuka-Fellowship-Week-10
+
+What I learned: the hardest part of building ML tools isn't the model. It's making the prediction explainable enough that a field operator will actually trust it and act on it.
+
+#MachineLearning #Streamlit #PredictiveMaintenance #VibeCoding #DataScience #OperationsAnalytics #XGBoost #SHAP #ProductBuilder
