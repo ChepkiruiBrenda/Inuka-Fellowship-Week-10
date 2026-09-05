@@ -1,5 +1,5 @@
 """
-Run this script ONCE from your Week 9 folder to save the trained model
+Run this script ONCE to save the trained model
 and feature column list for the Streamlit dashboard.
 
 Usage:
