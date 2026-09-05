@@ -32,15 +32,11 @@ cd week10_ops_tool
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Configure environment
-cp .env.example .env
-# Edit .env: set DATA_PATH to your CSV location
-
-# 4. Place your dataset
+# 3. Place your dataset
 # Copy synthetic_predictive_maintenance_data.csv into this folder
 # (or set DATA_PATH in .env to its full path)
 
-# 5. Run
+# 4. Run
 streamlit run app.py
 ```
 
@@ -51,9 +47,8 @@ week10_ops_tool/
 ├── app.py              # Main Streamlit dashboard
 ├── requirements.txt    # Python dependencies
 ├── PROMPTS.md          # Vibe coding workflow — all prompts used
-├── .env.example        # Environment variable template (safe to commit)
-├── .env                # Your actual secrets (in .gitignore — never commit)
-├── .gitignore
+├── save_model.py       # Training model script
+├── .gitignore          # files not committed
 └── README.md
 ```
 
